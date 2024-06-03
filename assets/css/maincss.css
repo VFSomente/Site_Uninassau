@@ -140,7 +140,7 @@ div h1 img {
     justify-content: center;
 }
 .about-content{
-    max-width: 80rem;
+    max-width: 90rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
