@@ -158,9 +158,6 @@ div h1 img {
 .ads-video video {
     max-width: 100%;
     height: auto;
-    position: relative;
-    top: -13rem;
-    right: -2.5rem;
 }
 .ccm-video video {
     max-width: 100%;
