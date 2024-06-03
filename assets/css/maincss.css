@@ -72,6 +72,9 @@ div h1 img {
 .section {
     min-height: 100vh;
 }
+.sectionabout {
+    min-height: 150vh;
+}
 
 .menu-spacing {
     height: 6.5rem;
@@ -141,7 +144,7 @@ div h1 img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    height: 160vh;
     text-align: center;
 
 }
