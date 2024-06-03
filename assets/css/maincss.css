@@ -155,26 +155,12 @@ div h1 img {
     max-width: 100%;
     height: auto;
 }
-.ads-video video {
+.ads-video video{
     max-width: 100%;
     height: auto;
 }
-.ccm-video video {
+.ccm-video video{
     max-width: 100%;
     height: auto;
 }
-.stretch {
-    justify-items: center;
-  }
-  
-  .justify-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 10rem);
-    background: yellow;
-  }
-  .item {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: normal;
-  }
+
