@@ -146,6 +146,9 @@ div h1 img {
     justify-content: center;
     height: 160vh;
     text-align: center;
+    gap: var(--gap);
+    top: -8rem;
+    position: relative;
 
 }
 .about-text-content {
