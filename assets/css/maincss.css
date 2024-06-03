@@ -158,68 +158,6 @@ div h1 img {
 .ads-video video {
     max-width: 100%;
     height: auto;
-}
-.ccm-video video {
-    max-width: 100%;
-    height: auto;
-    position: relative;
-    top: -11.5rem;
-    right: -7.5rem;
-}
-.ads-ccm video {
-    max-width: 100%;
-    height: auto;
-}
-.stretch {
-    justify-items: center;
-  }
-  
-  .justify-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 10rem);
-    background: yellow;
-  }
-  .item {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: normal;
-  }
-.inicio-content, .ads-content, .ccm-content{
-    position: relative;
-    top: -8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--gap);
-    height: 100vh;
-}
-.inicio-text-content, .inicio-img, .ads-text-content, .ads-video, .ccm-text-content, .ccm-video{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-}
-.about-content{
-    max-width: 80rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-
-}
-.about-text-content {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-}
-
-.inicio-img img{
-    max-width: 100%;
-    height: auto;
-}
-.ads-video video {
-    max-width: 100%;
-    height: auto;
     position: relative;
     top: -13rem;
     right: -2.5rem;
