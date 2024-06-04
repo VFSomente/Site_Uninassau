@@ -141,7 +141,7 @@ div h1 img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--gap);
-    height: 160vh;
+    height: 180vh;
 }
 
 .ccm-content{
