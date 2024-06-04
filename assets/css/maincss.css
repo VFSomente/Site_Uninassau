@@ -126,7 +126,7 @@ div h1 img {
      width: 50%;
      left: 25%;
 }
-.inicio-content, .ads-content, .ccm-content{
+.inicio-content{
     position: relative;
     top: -8rem;
     display: grid;
@@ -134,6 +134,28 @@ div h1 img {
     gap: var(--gap);
     height: 100vh;
 }
+
+.ads-content{
+    position: relative;
+    top: -8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    height: 160vh;
+}
+
+.ccm-content{
+    position: relative;
+    top: -8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    height: 270vh;
+}
+
+
+
+
 .inicio-text-content, .inicio-img, .ads-text-content, .ads-video, .ccm-text-content, .ccm-video{
     display: flex;
     flex-flow: column wrap;
@@ -169,4 +191,6 @@ div h1 img {
     max-width: 100%;
     height: auto;
 }
-
+article h4 a {
+    color: inherit;
+}
